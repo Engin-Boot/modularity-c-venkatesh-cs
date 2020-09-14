@@ -8,7 +8,7 @@ namespace TelCo.ColorCoder
 {
     internal class Tester
     {
-     public static void TestColor()
+        public static void TestColor()
         {
             int pairNumber = 4;
             ColorPair testPair1 = DriverMethods.GetColorFromPairNumber(pairNumber);
