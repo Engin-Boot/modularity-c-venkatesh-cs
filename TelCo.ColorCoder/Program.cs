@@ -13,7 +13,6 @@ namespace TelCo.ColorCoder
         private static void Main()
         {
             Tester.TestColor();
-            Console.ReadKey();
         }
     }
 }
