@@ -15,7 +15,6 @@ namespace TelCo.ColorCoder
         {
             Tester.TestColor();
             ManualWriter.GenerateAndWriteManualToFile();
-            Console.ReadKey();
         }
     }
 }
