@@ -4,15 +4,18 @@ using System.Drawing;
 namespace TelCo.ColorCoder
 {
     
-    internal class Program
+    internal class TeleColorCoderMain
     {
        
         /// <summary>
         /// Main
         /// </summary>
-        private static void Main()
+        /// </summary>
+        public static void Main()
         {
             Tester.TestColor();
+            ManualWriter.GenerateAndWriteManualToFile();
+            Console.ReadKey();
         }
     }
 }

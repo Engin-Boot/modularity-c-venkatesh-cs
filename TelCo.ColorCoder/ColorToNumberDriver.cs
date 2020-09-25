@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TelCo.ColorCoder
 {
-    internal partial class DriverMethods
+    public partial class DriverMethods
     {
         /// <summary>
         /// Given the two colors the function returns the pair number corresponding to them

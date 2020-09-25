@@ -5,16 +5,16 @@ namespace TelCo.ColorCoder
     /// <summary>
     /// data type defined to hold the two colors of clor pair
     /// </summary>
-    internal class ColorPair
+    public class ColorPair
     {
-        internal Color majorColor;
-        internal Color minorColor;
+        public Color majorColor;
+        public Color minorColor;
         public override string ToString()
         {
             return string.Format("MajorColor:{0}, MinorColor:{1}", majorColor.Name, minorColor.Name);
         }
     }
-    internal static class ColorMaps
+    public static class ColorMaps
     {
         /// <summary>
         /// Array of Major colors

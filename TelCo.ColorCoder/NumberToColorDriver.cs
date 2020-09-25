@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TelCo.ColorCoder
 {
-    internal partial class DriverMethods
+    public partial class DriverMethods
     {
         /// <summary>
         /// Given a pair number function returns the major and minor colors in that order
